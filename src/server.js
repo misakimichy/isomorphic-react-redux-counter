@@ -5,7 +5,7 @@ import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import { renderToString } from 'react-dom/server'
 import counterApp from './reducers'
-import App from './cointainers/App'
+import App from './containers/App'
 
 const app = Express()
 const port = 3000
