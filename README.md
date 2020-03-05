@@ -12,7 +12,7 @@ Create an Isomorphic React-Redux Counter application.
 
 
 ## Credit
-- Application favicon is [Check Box by Google](https://www.flaticon.com/authors/google). It's available at [favicon.com](https://www.flaticon.com)
+- Application favicon is [Sheep by Freepik](https://www.flaticon.com/authors/freepik). It's available at [favicon.com](https://www.flaticon.com)
 
 ## Installation:
 1. Clone this repo:

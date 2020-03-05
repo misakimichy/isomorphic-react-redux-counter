@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import './../containers/App.css'
 
 class Counter extends Component {
     incrementIfOdd = () => {
@@ -15,17 +16,15 @@ class Counter extends Component {
     render() {
         const { value, onIncrement, onDecrement } = this.props
         return(
-            <p>
-                Clicked: {value} times
-                {' '}
-                <button onClick={onIncrement}><span role='img' aria-label='plus'>➕</span></button>
-                {' '}
-                <button onClick={onDecrement}><span role='img' aria-label='plus'>➖</span></button>
-                {' '}
-                <button onClick={this.incrementIfOdd}>Increment if odd</button>
-                {' '}
-                <button onClick={this.incrementAsync}>Increment with 1 second delay</button>
-            </p>
+            <div className="container">
+                <p>Clicked: {value} times</p>
+                <div className="button-container">
+                    <button onClick={onIncrement}>+</button>
+                    <button onClick={onDecrement}>-</button>
+                    <button onClick={this.incrementIfOdd}>Increment if odd</button>
+                    <button onClick={this.incrementAsync}>Increment with 1 second delay</button>
+                </div>
+            </div>
         )
     }
 
