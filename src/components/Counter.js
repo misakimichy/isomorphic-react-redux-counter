@@ -24,7 +24,7 @@ class Counter extends Component {
                 {' '}
                 <button onClick={this.incrementIfOdd}>Increment if odd</button>
                 {' '}
-                <button onClick={this.incrementAsync}>Increment async</button>
+                <button onClick={this.incrementAsync}>Increment with 1 second delay</button>
             </p>
         )
     }
