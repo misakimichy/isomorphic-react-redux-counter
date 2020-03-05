@@ -1,6 +1,6 @@
-# Isomorphic-react-counter
+# Isomorphic react counter
 
-#### _React: Isomorphic-react-counter, Last Update 03/04/2020_
+#### _React: Isomorphic react counter, Last Update 03/04/2020_
 
 ## Description
 Create an Isomorphic React-Redux Counter application.
@@ -9,6 +9,8 @@ Create an Isomorphic React-Redux Counter application.
 - Application is Isomorphic React, which runs both client and server side.
 
 - Use Express server run by Node.js
+
+- There are four buttons to move the counter: increment by 1, decrement by 1, increment if the count is odd and 1 second of delay from the click (async).
 
 
 ## Credit
